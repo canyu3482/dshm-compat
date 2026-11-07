@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DSHM Plugin Compatibility",
+    "description": "Analyze and convert DSH plugins that cannot install or run on HarmonyOS DSHM."
+  }
+}

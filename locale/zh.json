@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DSHM 插件兼容",
+    "description": "分析并转译在鸿蒙 DSHM 上装不上或跑不起来的 DSH 插件。"
+  }
+}

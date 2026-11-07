@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="DSHM compatibility">
+  <rect x="3" y="3" width="58" height="58" rx="14" fill="#1f2937"/>
+  <path d="M18 22h12l5 6-5 6H18l5-6-5-6Z" fill="#60a5fa"/>
+  <path d="M34 30h12l-5 6 5 6H34l-5-6 5-6Z" fill="#f59e0b" opacity=".95"/>
+  <path d="M14 45h36" stroke="#e5e7eb" stroke-width="3" stroke-linecap="round"/>
+</svg>

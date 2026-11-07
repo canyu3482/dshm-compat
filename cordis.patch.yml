@@ -1,0 +1,6 @@
+# dshm-compat: one host row. The row registers the compatibility analyzer and
+# (in later phases) conversion/install tools. It never changes other rows.
+- insert:
+    - id: dshm-compat
+      name: dshm-compat
+      config: {}

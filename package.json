@@ -1,0 +1,50 @@
+{
+  "name": "dshm-compat",
+  "version": "0.2.0",
+  "description": "Analyze and convert DSH plugins that cannot be installed or run on HarmonyOS DSHM.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "dshm-compat": "bin/dshm-compat.mjs"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./lib/client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-renderer",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-api-remotes"
+      ]
+    }
+  },
+  "scripts": {
+    "test": "node test/run.mjs"
+  },
+  "files": [
+    "index.js",
+    "bin",
+    "lib",
+    "assets",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "INSTALL.md",
+    "CHANGELOG.md",
+    "AGENTS.md",
+    "docs/*.md"
+  ],
+  "engines": {
+    "node": "^22.19 || >=24"
+  }
+}

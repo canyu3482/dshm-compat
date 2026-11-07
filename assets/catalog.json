@@ -1,0 +1,80 @@
+{
+  "version": 2,
+  "note": "Short one-line descriptions only. `expect` is the analyzer's strategy; `verified` records what was actually proven. An entry is a description, never a rule: adaptation always goes through the generic engines (see AGENTS.md). Override the whole shelf with DSHM_COMPAT_CATALOG.",
+  "entries": [
+    {
+      "name": "dshm-boot-rescue",
+      "desc": "启动救援：卡死时恢复插件",
+      "expect": "S0",
+      "verified": "2026-11-07 GitHub main（dshm-boot-rescue@1.1.0）判定 S0 通过",
+      "spec": "github:huangshou1/dshm-boot-rescue-plugin#main",
+      "recommend": true
+    },
+    {
+      "name": "dsh-pet",
+      "desc": "桌宠：蓝色大肥鱼",
+      "expect": "S0",
+      "verified": "真机已安装，待重启验证"
+    },
+    {
+      "name": "dsh-free-search",
+      "desc": "免费网页搜索，内置 27 个引擎",
+      "expect": "S0",
+      "verified": "2026-10-24 转换通过"
+    },
+    {
+      "name": "dsh-context",
+      "desc": "上下文用量查看与清理",
+      "expect": "S0",
+      "verified": "2026-10-24 转换通过"
+    },
+    {
+      "name": "dsh-cost-meter",
+      "desc": "会话费用与用量统计",
+      "expect": "S0",
+      "verified": "2026-10-24 转换通过"
+    },
+    {
+      "name": "dsh-plugin-mgr",
+      "desc": "在设置页管理已装插件",
+      "expect": "S0",
+      "verified": "2026-10-24 转换通过"
+    },
+    {
+      "name": "dsh-plugin-model-proxy",
+      "desc": "给指定模型单独走代理",
+      "expect": "S0",
+      "verified": "2026-10-24 转换通过"
+    },
+    {
+      "name": "dsh-mnemon",
+      "desc": "可组合的上下文记忆",
+      "expect": "S0",
+      "verified": "2026-10-24 转换通过"
+    },
+    {
+      "name": "@michengai/dsh-archive-manager",
+      "desc": "会话归档、恢复与清理",
+      "expect": "S0",
+      "verified": "2026-10-24 转换通过"
+    },
+    {
+      "name": "@dfy-plugins/dsh-image-generation",
+      "desc": "图像生成与编辑",
+      "expect": "S0",
+      "verified": "2026-10-24 转换通过"
+    },
+    {
+      "name": "dsh-ops",
+      "desc": "运维工具集，带原生 worker",
+      "expect": "S2",
+      "verified": "需 arm64 worker 或源码构建"
+    },
+    {
+      "name": "dshm-compat",
+      "desc": "就是本插件：兼容分析与转译",
+      "expect": "S0",
+      "verified": "自装验证"
+    }
+  ]
+}

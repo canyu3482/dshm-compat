@@ -1,0 +1,18 @@
+# 历史发布产物与本地构建
+*.tgz
+builds/
+cache/
+
+# 测试与运行时工件
+_tmp/
+test/_tmp/
+profile/
+profile-*/
+market-*/
+brick-compat/
+*.log
+
+# 依赖与本机文件
+node_modules/
+.DS_Store
+Thumbs.db
